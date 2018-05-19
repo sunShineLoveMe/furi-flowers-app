@@ -22,7 +22,7 @@
             <icon wx:else type='circle' color='#fff' class='total-select' bindtap='selectAll'></icon>
 
             <view class='order-icon'>
-                <navigator url='./../order/list/list'><image src='/images/icon3.png'></image></navigator>
+                <navigator url='./../order/list/list'><image src='/image/icon3.png'></image></navigator>
             </view>
             <text>全选</text>
             <text class='cart-toatl-price'>￥{{totalPrice}}</text>

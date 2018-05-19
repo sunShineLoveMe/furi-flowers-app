@@ -5,8 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    thumb: "",
-    nickname: "",
+    thumb: "/image/avator/4.png",
+    nickname: "june",
     orders:[],
     hasAddress: false,
     address: {}

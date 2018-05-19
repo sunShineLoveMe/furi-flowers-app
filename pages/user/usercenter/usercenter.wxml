@@ -4,17 +4,34 @@
         <text class="nickname">{{nickname}}</text>
         <text class="about">关于我们</text>
     </view>
-    <view class="address-box">
-        <view class="address-manage">
-            <navigator url="/pages/address/address">地址管理</navigator>
+    <view class="common-box">
+        <view class="common-manage">
+            <view class='common-icon'><image src='/image/address.png'></image></view>
+            <navigator url="/pages/address/address"><text>地址管理</text></navigator>
+            <view class='common-right-arrow'><image src='/image/right-arrow.png'></image></view>
         </view>
-        <view wx:if="{{hasAddress}}" class="address-list">
+        <!-- <view wx:if="{{hasAddress}}" class="address-list">
             <view>{{address.name}}</view>
             <view>{{address.phone}}</view>
             <view>{{address.detail}}</view>
+        </view> -->
+    </view>
+    <view class='common-box'>
+        <view class='common-manage'>
+            <view class='common-icon'><image src='/image/order.png'></image></view>
+            <navigator url=''><text>订单管理</text></navigator>
+            <view class='common-right-arrow'><image src='/image/right-arrow.png'></image></view>
         </view>
     </view>
-    <view class="orders-box">
+    <view class='common-box'>
+        <view class='common-manage'>
+            <view class='common-icon'><image src='/image/tel.png'></image></view>
+            <navigator class="customer-contact" url=''><text>联系客服</text></navigator>
+            <view class='customer-service'><text>服务时间: 9:00-20:00</text></view>
+            <view class='common-right-arrow'><image src='/image/right-arrow.png'></image></view>
+        </view>
+    </view>
+    <!-- <view class="orders-box">
         <view class="orders">我的订单</view>
         <view class="orders-list" wx:for="{{orders}}" wx:key="index">
             <view class="orders-number">订单编号：{{item.number}}</view>
@@ -29,5 +46,5 @@
                 <button size="mini" class="orders-btn" bindtap="payOrders">付款</button>
             </view>
         </view>
-    </view>
+    </view> -->
 </view>

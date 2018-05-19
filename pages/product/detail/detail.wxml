@@ -3,7 +3,7 @@
         <image src='{{goods.image}}' class='goods-thumb'></image>
         <navigator open-type='switchTab' url='./../../shopcart/shopcart'>
             <view class="carts-icon {{scaleCart? 'on': ''}}">
-                <image src='/images/cart2.png'></image>
+                <image src='/image/cart2.png'></image>
                 <text class='carts-icon-num' wx:if="{{hasCarts}}">{{totalNum}}</text>
             </view>
         </navigator>
@@ -11,9 +11,9 @@
             <text class='goods-operation-num'>数量 {{num}}</text>
             <text class='goods-operation-add' bindtap="addCount">+</text>
             <text class='goods-to-cart' bindtap='addToCart'>加入购物车</text>
-            <image src='/images/cart1.png' class='goods-cart-img' bindtap='addToCart'></image>
+            <image src='/image/cart1.png' class='goods-cart-img' bindtap='addToCart'></image>
         </view>
-        <image wx:if="{{show}}" src="/images/cart1.png" class="to-carts-icon"></image>
+        <image wx:if="{{show}}" src="/image/cart1.png" class="to-carts-icon"></image>
         <view class='goods-stock'>{{goods.stock}}</view>
         <view class='goods-title'>{{goods.title}}</view>
         <view class='goods-price'>￥ {{goods.price}}</view>

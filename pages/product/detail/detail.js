@@ -7,7 +7,7 @@ Page({
     data: {
         goods: {
             id: 1,
-            image: '/images/goods1.png',
+            image: '/image/goods1.png',
             title: '新鲜梨花带雨',
             price: 0.01,
             stock: '有货',

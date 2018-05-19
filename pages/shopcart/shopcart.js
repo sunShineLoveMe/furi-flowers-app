@@ -30,7 +30,7 @@ Page({
             { 
                 id:1, 
                 title:'新鲜芹菜 半斤', 
-                image: '/images/s5.png',
+                image: '/image/s5.png',
                 num: 4,
                 price: 0.01,
                 selected: true
@@ -38,7 +38,7 @@ Page({
             {
                 id: 2,
                 title: '粟米 500g',
-                image: '/images/s6.png',
+                image: '/image/s6.png',
                 num: 1,
                 price: 0.03,
                 selected: true

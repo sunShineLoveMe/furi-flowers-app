@@ -5,10 +5,10 @@ Page({
    */
   data: {
       imgUrls: [
-          '/images/swiper/b1.jpg',
-          '/images/swiper/b2.jpg',
-          '/images/swiper/b3.jpg',
-          '/images/swiper/b4.jpg'
+          '/image/swiper/b1.jpg',
+          '/image/swiper/b2.jpg',
+          '/image/swiper/b3.jpg',
+          '/image/swiper/b4.jpg'
       ],
       indicatorDots: false,
       autoplay: false,

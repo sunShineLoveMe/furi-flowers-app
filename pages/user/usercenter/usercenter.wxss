@@ -2,7 +2,7 @@
 
 .header{
     position: relative;
-    height: 160rpx;
+    height: 240rpx;
     line-height: 100rpx;
     padding:30rpx 30rpx 30rpx 150rpx;
     box-sizing: border-box;
@@ -32,7 +32,8 @@
     position: relative;
     height: 90rpx;
     border-bottom: 1rpx solid #e9e9e9;
-    text-align: center;
+    text-align: left;
+    margin-left: 60rpx;
 }
 .address-box .address-manage::after{
     position: absolute;
@@ -117,4 +118,67 @@
     border-radius: 6rpx;
     background: #b42f2d;
     color: #fff;
+}
+
+.common-box{
+    border-bottom: 5rpx solid #ededed;
+    color: #999;
+    line-height: 90rpx;
+    font-size: 28rpx;
+}
+.common-box .common-manage{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+/* .common-box .common-manage::after{
+    position: relative;
+    right: 30rpx;
+    top: 34rpx;
+    content: '';
+    width: 16rpx;
+    height: 16rpx;
+    border-top: 4rpx solid #7f7f7f;
+    border-right: 4rpx solid #7f7f7f;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+} */
+
+/* .customer-manage {
+    display: flex;
+    flex-direction: row;
+} */
+
+.common-icon {
+    width: 48rpx;
+    height: 48rpx;
+    margin-left: 60rpx;
+    margin-right: 12rpx;
+    vertical-align: middle;
+}
+
+.common-icon image {
+    position: relative;
+    top: -3rpx;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.customer-service {
+    margin-left: 60rpx;
+    color: #cdcdcd;
+}
+
+.common-right-arrow {
+    position: absolute;
+    width: 48rpx;
+    height: 48rpx;
+    top: 12rpx;
+    right: 20rpx;
+}
+
+.common-right-arrow image {
+    width: 100%;
+    height: 100%;
 }

@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class='avator'>
-    <image src='/images/avator/4.png'></image>
+    <image src='/image/avator/4.png'></image>
   </view>
   <view class='user-name'>
     <text>Hello, 七月</text>
