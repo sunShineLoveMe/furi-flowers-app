@@ -1,0 +1,50 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/user/usercenter/usercenter",
+        "pages/order/list/list",
+        "pages/shopcart/shopcart",
+        "pages/product/category/category",
+        "pages/product/index/index",
+        "pages/product/list/list",
+        "pages/product/detail/detail",
+        "pages/address/address"
+        
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#AB956D",
+        "navigationBarTitleText": "馥蕤花香",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#cdcdcd",
+        "selectedColor": "#000",
+        "list": [
+            {
+                "pagePath": "pages/product/index/index",
+                "text": "首页",
+                "iconPath": "images/tabs/home.png",
+                "selectedIconPath": "images/tabs/home-selected.png"
+            },
+            {
+                "pagePath": "pages/product/category/category",
+                "text": "产品分类",
+                "iconPath": "images/tabs/category-tab.png",
+                "selectedIconPath": "images/tabs/category-tab-selected.png"
+            },
+            {
+                "pagePath": "pages/shopcart/shopcart",
+                "text": "购物车",
+                "iconPath": "images/tabs/cart-tab.png",
+                "selectedIconPath": "images/tabs/cart-tab-selected.png"
+            },
+            {
+                "pagePath": "pages/user/usercenter/usercenter",
+                "text": "个人中心",
+                "iconPath": "images/tabs/user-tab.png",
+                "selectedIconPath": "images/tabs/user-tab-selected.png"
+            }
+        ]
+    }
+}
